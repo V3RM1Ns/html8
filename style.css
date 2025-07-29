@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;
+    background-color: #f5f5f5;
+    padding: 30px;
+    text-align: center;
+}
+
+.tihs input {
+    font-size: 18px;
+    padding: 10px;
+    width: 200px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.but button {
+    font-size: 18px;
+    padding: 12px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+}
+
+.blue { background-color: #007bff; }
+.red { background-color: #dc3545; }
+.green { background-color: #28a745; }
+.yellow { background-color: #ffc107; color: black; }
+
+#resultBox {
+    width: 250px;
+    padding: 12px;
+    font-size: 20px;
+    background-color: #ffffff;
+    color: #000;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

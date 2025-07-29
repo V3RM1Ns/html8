@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+</head>
+<body>
+
+<div class="tihs">
+    <form id="calcForm">
+        <input type="number" id="num1" placeholder="Number-1" />
+        <input type="number" id="num2" placeholder="Number-2" />
+    </form>
+
+    <div class="but">
+        <button class="blue" onclick="calculate('add')">Toplama</button>
+        <button class="red" onclick="calculate('subtract')">Çıxma</button>
+        <button class="green" onclick="calculate('multiply')">Vurma</button>
+        <button class="yellow" onclick="calculate('divide')">Bölmə</button>
+    </div>
+</div>
+
+<div class="last">
+    <div id="resultBox">Nəticə burda</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
